@@ -1,1 +1,12 @@
-{}
+{
+  "mlabDs": {
+    "host": "ds125602.mlab.com",
+    "port": 25602,
+    "url": "mongodb://jiangren1:jiangren1@ds125602.mlab.com:25602/jiangren-course",
+    "database": "jiangren-course",
+    "password": "jiangren1",
+    "name": "mlabDs",
+    "user": "jiangren1",
+    "connector": "mongodb"
+  }
+}
