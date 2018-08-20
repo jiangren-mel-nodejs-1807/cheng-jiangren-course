@@ -1,0 +1,33 @@
+{
+  "name": "Course",
+  "plural": "Courses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "length": {
+      "type": "number",
+      "required": true
+    },
+    "start": {
+      "type": "date"
+    },
+    "image": {
+      "type": "string"
+    },
+    "on": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "School",
+  "plural": "Schools",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "loaction": {
+      "type": "string",
+      "default": "Melbourne"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

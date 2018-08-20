@@ -16,5 +16,21 @@
   "Teacher": {
     "dataSource": "mlabDs",
     "public": true
+  },
+  "Syllabus": {
+    "dataSource": "mlabDs",
+    "public": true
+  },
+  "Student": {
+    "dataSource": "mlabDs",
+    "public": true
+  },
+  "Course": {
+    "dataSource": "mlabDs",
+    "public": true
+  },
+  "School": {
+    "dataSource": "mlabDs",
+    "public": true
   }
 }
