@@ -12,5 +12,9 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Teacher": {
+    "dataSource": "mlabDs",
+    "public": true
   }
 }
