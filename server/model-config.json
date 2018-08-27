@@ -14,7 +14,7 @@
     ]
   },
   "Teacher": {
-    "dataSource": "mlabDs",
+    "dataSource": "sqlite3",
     "public": true
   },
   "Syllabus": {
@@ -30,6 +30,10 @@
     "public": true
   },
   "School": {
+    "dataSource": "mlabDs",
+    "public": true
+  },
+  "Enrolment": {
     "dataSource": "mlabDs",
     "public": true
   }

@@ -27,7 +27,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "students": {
+      "type": "hasMany",
+      "model": "Student",
+      "foreignKey": "courseId",
+      "through": "Enrolment"
+    }
+  },
   "acls": [],
   "methods": {}
 }

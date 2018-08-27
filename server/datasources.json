@@ -8,5 +8,11 @@
     "name": "mlabDs",
     "user": "jiangren1",
     "connector": "mongodb"
+  },
+  "sqlite3": {
+    "name": "sqlite3",
+    "connector": "sqlite3",
+    "file": "./server/data/sqllite.db",
+    "debug": true
   }
 }
