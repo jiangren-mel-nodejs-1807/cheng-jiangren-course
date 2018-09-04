@@ -14,7 +14,7 @@
     ]
   },
   "Teacher": {
-    "dataSource": "sqlite3",
+    "dataSource": "mlabDs",
     "public": true
   },
   "Syllabus": {
@@ -34,6 +34,25 @@
     "public": true
   },
   "Enrolment": {
+    "dataSource": "mlabDs",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "mlabDs",
+    "public": false,
+    "relations": {
+      "user": {
+        "type": "belongsTo",
+        "model": "JiangrenUser",
+        "foreignKey": "jiangrenUserId"
+      }
+    }
+  },
+  "ACL": {
+    "dataSource": "mlabDs",
+    "public": false
+  },
+  "JiangrenUser": {
     "dataSource": "mlabDs",
     "public": true
   }
